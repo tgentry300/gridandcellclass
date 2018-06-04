@@ -41,8 +41,7 @@ Cell.prototype = {
     }
 }
 
-const newGame = new Grid(10, 10, document.querySelector("main"))
+const newGame = new Grid(8, 8, document.querySelector("main"))
 const newCell = new Cell()
 newGame.createGameGridArray()
 newGame.createColumn()
-newCell.createCell()
